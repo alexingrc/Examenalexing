@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Restaurant la tia loca</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="reporte">Reporte</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="rp">Reporte Productos</string>
+    <string name="rv">Reporte Ventas</string>
+    <string name="cl">Clientes</string>
+    <string name="pr">Productos</string>
+    <string name="ca">Categoria</string>
+    <string name="ve">vendedor</string>
+    <string name="title_activity_cuy">Cuy</string>
+    <string name="title_activity_aji">aji</string>
+    <string name="title_activity_pescado">pescado</string>
+    <string name="title_activity_juane">juane</string>
+    <string name="title_activity_pizza">pizza</string>
+    <string name="title_activity_escabeche">escabeche</string>
+</resources>

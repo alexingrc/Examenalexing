@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/reporte"
+        android:title="@string/reporte"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_today"
+        app:showAsAction="ifRoom|withText" >
+
+    <menu>
+        <item android:id="@+id/rp"
+            android:title="@string/rp"
+            app:showAsAction="withText"/>
+        <item android:id="@+id/rv"
+            android:title="@string/rv"
+            app:showAsAction="withText"/>
+
+    </menu>
+
+
+</item>
+
+    <item android:id="@+id/configuracion"
+        android:title="@string/configuracion"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="ifRoom|withText" >
+    <menu>
+        <item android:id="@+id/cl"
+            android:title="@string/cl"
+            app:showAsAction="withText"/>
+        <item android:id="@+id/pr"
+            android:title="@string/pr"
+            app:showAsAction="withText"/>
+        <item android:id="@+id/ca"
+            android:title="@string/ca"
+            app:showAsAction="withText"/>
+        <item android:id="@+id/ve"
+            android:title="@string/ve"
+            app:showAsAction="withText"/>
+        </menu>
+
+    </item>
+</menu>
